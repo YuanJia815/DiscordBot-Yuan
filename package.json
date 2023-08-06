@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite-node src/main.js",
+    "test": "vite-node src/commands/img/test.js"
+  },
+  "engines": {
+    "node": ">=16.3.0 "
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "fast-glob": "^3.2.12",
+    "global": "^4.4.0",
+    "immer": "^10.0.2",
+    "pinia": "^2.1.4",
+    "vite-node": "^0.32.2",
+    "vue": "^3.3.4"
+  }
+}
